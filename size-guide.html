@@ -1,0 +1,1163 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costume Crown</title>
+     <link rel="icon" type="image/png" href="images/logo-1.png">
+  
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="size-guide.css">
+</head>
+
+<body>
+
+<header class="main-header">
+    <div class="header-container">
+
+      
+        <a href="index.html" class="brand" aria-label="Costume Crown home">
+            <div class="brand-logo">
+                <img src="images/logo-1.png" alt="Costume Crown logo">
+            </div>
+
+            <div class="brand-content">
+                <div class="brand-name">Costume <span>Crown</span></div>
+                <div class="brand-tagline">DRESS UP. STAND OUT.</div>
+            </div>
+        </a>
+
+    
+        <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+
+            
+            <div class="nav-dropdown" id="navDropdown">
+                <button type="button"
+                        class="nav-dropdown-toggle"
+                        id="dropdownToggle"
+                        aria-expanded="false"
+                        aria-controls="homeDropdownMenu">
+                    <span>Home</span>
+                    <i class="bi bi-chevron-down" aria-hidden="true"></i>
+                </button>
+
+                <div class="dropdown-menu" id="homeDropdownMenu">
+                    <a href="index.html" class="dropdown-link">Home 1</a>
+                    <a href="home-2.html" class="dropdown-link">Home 2</a>
+                </div>
+            </div>
+
+            <a href="categories.html" class="nav-link">Categories</a>
+            <a href="catalog.html" class="nav-link">Catalog</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="size-guide.html" class="nav-link">Size Guide</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+
+          
+            <a href="contact.html" class="header-cta mobile-cta">
+                <i class="bi bi-calendar2-check" aria-hidden="true"></i>
+                <span>Reserve a Costume</span>
+            </a>
+
+        </nav>
+
+        
+        <div class="header-actions">
+
+          
+
+          
+            <button type="button"
+                    class="header-icon-btn"
+                    id="rtlToggle"
+                    aria-label="Toggle text direction"
+                    title="RTL / LTR">
+                <i class="bi bi-arrow-left-right" aria-hidden="true"></i>
+            </button>
+
+          
+            <button type="button"
+                    class="header-icon-btn"
+                    id="themeToggle"
+                    aria-label="Toggle dark mode"
+                    title="Dark / Light mode">
+                <i class="bi bi-moon-stars-fill"
+                   id="themeIcon"
+                   aria-hidden="true"></i>
+            </button>
+             
+            <a href="contact.html" class="header-cta desktop-cta">
+                <i class="bi bi-calendar2-check" aria-hidden="true"></i>
+                <span>Reserve a Costume</span>
+            </a>
+
+           
+            <button type="button"
+                    class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-controls="navMenu"
+                    aria-expanded="false">
+                <i class="bi bi-list" id="menuIcon" aria-hidden="true"></i>
+            </button>
+
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+
+<section class="size-guide-hero" id="size-guide">
+
+    <!-- Background Image -->
+    <div class="size-guide-hero__background"></div>
+    <div class="size-guide-hero__overlay"></div>
+
+    <div class="size-guide-hero__container">
+
+        <div class="size-guide-hero__content">
+
+            <span class="size-guide-hero__label">
+                <i class="bi bi-stars"></i>
+                YOUR COSTUME FITTING GUIDE
+            </span>
+
+            <h1>
+                Find the
+                <span>Perfect Fit</span>
+            </h1>
+
+            <p class="size-guide-hero__description">
+                Princess play, magical adventures, and unforgettable
+                celebrations start with the right fit. Use our size
+                guide to find a costume that feels comfortable and
+                looks wonderful for every special occasion.
+            </p>
+
+            <div class="size-guide-hero__buttons">
+
+                <a href="#size-chart"
+                   class="size-guide-btn size-guide-btn--primary">
+
+                    <span>Explore Size Chart</span>
+                    <i class="bi bi-arrow-right"></i>
+
+                </a>
+
+                <a href="#how-to-measure"
+                   class="size-guide-btn size-guide-btn--secondary">
+
+                    <i class="bi bi-rulers"></i>
+                    <span>How to Measure</span>
+
+                </a>
+
+            </div>
+
+            <div class="size-guide-hero__trust">
+
+                <i class="bi bi-heart-fill"></i>
+
+                <span>
+                    Made for comfort, confidence, and magical moments.
+                </span>
+
+            </div>
+
+        </div>
+
+       
+        <div class="size-guide-hero__decoration">
+            <span class="size-guide-hero__decoration-line"></span>
+            <span>THE PERFECT FIT STARTS HERE</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+<section class="measurement-section" id="how-to-measure">
+
+    <div class="measurement-container">
+
+      
+        <div class="measurement-heading">
+
+            <span class="measurement-eyebrow">
+                SIZE GUIDE
+            </span>
+
+            <h2>
+                Measure for the
+                <span>Best Fit</span>
+            </h2>
+
+            <p>
+                Find the perfect fit for every costume with our
+                simple measuring guide. Use a flexible measuring
+                tape and measure comfortably over light clothing.
+            </p>
+
+        </div>
+
+
+        
+        <div class="measurement-layout">
+
+            
+            <div class="measurement-visual">
+
+                <div class="measurement-image">
+                    <img
+                        src="images/sizes.jpg"
+                        alt="Guide showing how to measure clothing sizes"
+                        loading="lazy"
+                    >
+                </div>
+
+                <div class="measurement-note">
+                    <span class="measurement-note-icon">
+                        <i class="bi bi-rulers"></i>
+                    </span>
+
+                    <div>
+                        <h3>Before You Begin</h3>
+                        <p>
+                            Keep the measuring tape straight and snug,
+                            but never tight. Stand naturally for accurate
+                            measurements.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+
+           
+            <div class="measurement-details">
+
+               
+                <article class="measurement-card">
+
+                    <div class="measurement-icon">
+                        <i class="bi bi-person-standing"></i>
+                    </div>
+
+                    <div class="measurement-card-content">
+                        <span class="measurement-number">01</span>
+
+                        <h3>Chest</h3>
+
+                        <p>
+                            Wrap the tape around the fullest part of
+                            the chest, keeping it level under the arms.
+                        </p>
+                    </div>
+
+                </article>
+
+
+               
+                <article class="measurement-card">
+
+                    <div class="measurement-icon">
+                        <i class="bi bi-arrow-left-right"></i>
+                    </div>
+
+                    <div class="measurement-card-content">
+                        <span class="measurement-number">02</span>
+
+                        <h3>Waist</h3>
+
+                        <p>
+                            Measure around the natural waistline without
+                            pulling the tape too tightly.
+                        </p>
+                    </div>
+
+                </article>
+
+
+              
+                <article class="measurement-card">
+
+                    <div class="measurement-icon">
+                        <i class="bi bi-person"></i>
+                    </div>
+
+                    <div class="measurement-card-content">
+                        <span class="measurement-number">03</span>
+
+                        <h3>Hips</h3>
+
+                        <p>
+                            Measure around the fullest part of the hips
+                            while standing with your feet together.
+                        </p>
+                    </div>
+
+                </article>
+
+
+               
+                <article class="measurement-card">
+
+                    <div class="measurement-icon">
+                        <i class="bi bi-rulers"></i>
+                    </div>
+
+                    <div class="measurement-card-content">
+                        <span class="measurement-number">04</span>
+
+                        <h3>Height</h3>
+
+                        <p>
+                            Stand straight against a wall and measure
+                            from the floor to the top of the head.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                
+                <article class="measurement-card">
+
+                    <div class="measurement-icon">
+                        <i class="bi bi-arrows-vertical"></i>
+                    </div>
+
+                    <div class="measurement-card-content">
+                        <span class="measurement-number">05</span>
+
+                        <h3>Inseam</h3>
+
+                        <p>
+                            Measure from the top of the inner thigh
+                            down to the ankle, especially for trousers
+                            and full-length costumes.
+                        </p>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+
+      
+        <div class="measurement-tip">
+
+            <div class="measurement-tip-icon">
+                <i class="bi bi-lightbulb"></i>
+            </div>
+
+            <p>
+                <strong>Our fitting tip:</strong>
+                For children's costumes, check height and chest
+                measurements first. If your child falls between
+                sizes, compare the costume's fit and size chart
+                before making your reservation.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<section class="costume-size-section" id="costume-size-chart">
+
+    <div class="costume-size-container">
+
+     
+        <div class="costume-size-heading">
+
+            <span class="costume-size-eyebrow">
+                FIND YOUR FIT
+            </span>
+
+            <h2>
+                Explore Costume
+                <span>Sizes</span>
+            </h2>
+
+            <p>
+                Find the right costume size with our easy-to-follow
+                size guide. Compare age, height, chest, and waist
+                measurements before choosing your fancy dress costume.
+            </p>
+
+        </div>
+
+
+       
+        <div class="costume-size-card">
+
+            <div class="costume-size-card-header">
+
+                <div class="costume-size-card-title">
+                    <span class="costume-size-title-icon">
+                        <i class="bi bi-rulers"></i>
+                    </span>
+
+                    <div>
+                        <h3>Children's Costume Size Chart</h3>
+                        <p>General sizing guide for children's costumes</p>
+                    </div>
+                </div>
+
+                <span class="costume-size-unit">
+                    CM / INCHES
+                </span>
+
+            </div>
+
+
+          
+            <div class="costume-size-table-wrapper">
+
+                <table class="costume-size-table">
+
+                    <thead>
+                        <tr>
+                            <th scope="col">Age Guide</th>
+                            <th scope="col">Height</th>
+                            <th scope="col">Chest</th>
+                            <th scope="col">Waist</th>
+                            <th scope="col">Costume Size</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td data-label="Age Guide">
+                                <span class="costume-age">2–3 years</span>
+                            </td>
+
+                            <td data-label="Height">
+                                92–98 cm
+                                <small>36–39 in</small>
+                            </td>
+
+                            <td data-label="Chest">
+                                52–54 cm
+                                <small>20.5–21.3 in</small>
+                            </td>
+
+                            <td data-label="Waist">
+                                50–52 cm
+                                <small>19.7–20.5 in</small>
+                            </td>
+
+                            <td data-label="Costume Size">
+                                <span class="costume-size-badge">XS</span>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td data-label="Age Guide">
+                                <span class="costume-age">4–5 years</span>
+                            </td>
+
+                            <td data-label="Height">
+                                104–110 cm
+                                <small>41–43.3 in</small>
+                            </td>
+
+                            <td data-label="Chest">
+                                56–58 cm
+                                <small>22–22.8 in</small>
+                            </td>
+
+                            <td data-label="Waist">
+                                53–55 cm
+                                <small>20.9–21.7 in</small>
+                            </td>
+
+                            <td data-label="Costume Size">
+                                <span class="costume-size-badge">S</span>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td data-label="Age Guide">
+                                <span class="costume-age">6–7 years</span>
+                            </td>
+
+                            <td data-label="Height">
+                                116–122 cm
+                                <small>45.7–48 in</small>
+                            </td>
+
+                            <td data-label="Chest">
+                                60–64 cm
+                                <small>23.6–25.2 in</small>
+                            </td>
+
+                            <td data-label="Waist">
+                                56–58 cm
+                                <small>22–22.8 in</small>
+                            </td>
+
+                            <td data-label="Costume Size">
+                                <span class="costume-size-badge">M</span>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td data-label="Age Guide">
+                                <span class="costume-age">8–9 years</span>
+                            </td>
+
+                            <td data-label="Height">
+                                128–134 cm
+                                <small>50.4–52.8 in</small>
+                            </td>
+
+                            <td data-label="Chest">
+                                66–70 cm
+                                <small>26–27.6 in</small>
+                            </td>
+
+                            <td data-label="Waist">
+                                59–62 cm
+                                <small>23.2–24.4 in</small>
+                            </td>
+
+                            <td data-label="Costume Size">
+                                <span class="costume-size-badge">L</span>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td data-label="Age Guide">
+                                <span class="costume-age">10–11 years</span>
+                            </td>
+
+                            <td data-label="Height">
+                                140–146 cm
+                                <small>55.1–57.5 in</small>
+                            </td>
+
+                            <td data-label="Chest">
+                                72–76 cm
+                                <small>28.3–29.9 in</small>
+                            </td>
+
+                            <td data-label="Waist">
+                                63–66 cm
+                                <small>24.8–26 in</small>
+                            </td>
+
+                            <td data-label="Costume Size">
+                                <span class="costume-size-badge">XL</span>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td data-label="Age Guide">
+                                <span class="costume-age">12–13 years</span>
+                            </td>
+
+                            <td data-label="Height">
+                                152–158 cm
+                                <small>59.8–62.2 in</small>
+                            </td>
+
+                            <td data-label="Chest">
+                                78–84 cm
+                                <small>30.7–33.1 in</small>
+                            </td>
+
+                            <td data-label="Waist">
+                                67–72 cm
+                                <small>26.4–28.3 in</small>
+                            </td>
+
+                            <td data-label="Costume Size">
+                                <span class="costume-size-badge">Teen</span>
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+
+           
+            <div class="costume-size-footnote">
+
+                <i class="bi bi-info-circle"></i>
+
+                <p>
+                    <strong>Please note:</strong>
+                    These measurements are general examples, not
+                    manufacturer-confirmed sizes. Costume sizing can
+                    vary by brand, design, and fit. Always check the
+                    individual costume's size information.
+                </p>
+
+            </div>
+
+        </div>
+
+
+       
+        <div class="costume-size-tip">
+
+            <div class="costume-size-tip-icon">
+                <i class="bi bi-lightbulb"></i>
+            </div>
+
+            <div class="costume-size-tip-content">
+                <h3>Between Two Sizes?</h3>
+
+                <p>
+                    For rental costumes, compare your child's height
+                    and chest measurements with the specific costume
+                    details. If you're unsure, contact our team before
+                    reserving to help find the most comfortable fit.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<section class="size-faq-section" id="size-guide-faqs">
+
+    <div class="size-faq-container">
+
+       
+        
+        <div class="size-faq-heading">
+
+            <span class="size-faq-eyebrow">
+                HERE TO HELP
+            </span>
+
+            <h2>
+                Your Sizing Questions
+                <span>Answered</span>
+            </h2>
+
+            <p>
+                Choosing the right costume size should be simple.
+                Find helpful answers to common questions before
+                reserving your favourite fancy dress costume.
+            </p>
+
+        </div>
+
+
+       
+        <div class="size-faq-layout">
+
+           
+            <aside class="size-faq-aside">
+
+                <div class="size-faq-aside-icon">
+                    <i class="bi bi-chat-heart"></i>
+                </div>
+
+                <span class="size-faq-aside-label">
+                    NEED A LITTLE HELP?
+                </span>
+
+                <h3>
+                    Let's Find Your Perfect Fit
+                </h3>
+
+                <p>
+                    Not sure which size to choose? Compare your
+                    measurements with the individual costume details
+                    or contact our team before making a reservation.
+                </p>
+
+                <a href="contact.html" class="size-faq-contact-btn">
+                    Contact Our Team
+                    <i class="bi bi-arrow-up-right"></i>
+                </a>
+
+                <div class="size-faq-aside-note">
+                    <i class="bi bi-rulers"></i>
+                    <span>
+                        Always check the costume-specific size chart
+                        before booking.
+                    </span>
+                </div>
+
+            </aside>
+
+
+           
+            <div class="size-faq-list">
+
+              
+                <details class="size-faq-item" open>
+
+                    <summary>
+                        <span class="size-faq-question">
+                            How do I measure myself for a costume?
+                        </span>
+
+                        <span class="size-faq-toggle"
+                              aria-hidden="true">
+                            <i class="bi bi-plus-lg"></i>
+                        </span>
+                    </summary>
+
+                    <div class="size-faq-answer">
+                        <p>
+                            Use a flexible measuring tape to measure
+                            your chest, waist, and hips where relevant.
+                            For full-length costumes, also check your
+                            height and inseam. Keep the tape level and
+                            comfortably snug without pulling it tight.
+                            Compare your measurements with the size
+                            information for your chosen costume.
+                        </p>
+                    </div>
+
+                </details>
+
+
+             
+                <details class="size-faq-item">
+
+                    <summary>
+                        <span class="size-faq-question">
+                            How can I check if my size is available to rent?
+                        </span>
+
+                        <span class="size-faq-toggle"
+                              aria-hidden="true">
+                            <i class="bi bi-plus-lg"></i>
+                        </span>
+                    </summary>
+
+                    <div class="size-faq-answer">
+                        <p>
+                            Visit the costume's product page and check
+                            the available size or reservation details.
+                            Availability may depend on your rental dates
+                            and existing bookings. If the information
+                            is not displayed online, contact our team
+                            with the costume name, required size, and
+                            rental dates so we can help you check.
+                        </p>
+                    </div>
+
+                </details>
+
+
+               
+                <details class="size-faq-item">
+
+                    <summary>
+                        <span class="size-faq-question">
+                            Can I try on a costume before renting it?
+                        </span>
+
+                        <span class="size-faq-toggle"
+                              aria-hidden="true">
+                            <i class="bi bi-plus-lg"></i>
+                        </span>
+                    </summary>
+
+                    <div class="size-faq-answer">
+                        <p>
+                            Fitting options depend on our shop's
+                            location and rental policy. Contact us
+                            before visiting to confirm whether a fitting
+                            appointment is available for your chosen
+                            costume and size.
+                        </p>
+                    </div>
+
+                </details>
+
+
+              
+                <details class="size-faq-item">
+
+                    <summary>
+                        <span class="size-faq-question">
+                            What measurements should I check for a children's costume?
+                        </span>
+
+                        <span class="size-faq-toggle"
+                              aria-hidden="true">
+                            <i class="bi bi-plus-lg"></i>
+                        </span>
+                    </summary>
+
+                    <div class="size-faq-answer">
+                        <p>
+                            Start with your child's height and chest
+                            measurements, then check the waist and
+                            inseam if the costume includes fitted
+                            trousers or full-length clothing. Review
+                            any special sizing notes provided for the
+                            specific design.
+                        </p>
+                    </div>
+
+                </details>
+
+
+               
+            </div>
+
+        </div>
+
+
+    
+        <div class="size-faq-bottom">
+
+            <div class="size-faq-bottom-content">
+                <span>STILL NOT SURE?</span>
+
+                <h3>
+                    Your Perfect Costume Is Worth Getting Right.
+                </h3>
+
+                <p>
+                    Let us help you find the right fit for your next
+                    celebration.
+                </p>
+            </div>
+
+            <a href="contact.html" class="size-faq-bottom-btn">
+                Ask Us About Sizing
+                <i class="bi bi-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<section class="size-cta-section" id="size-guide-cta">
+
+    <div class="size-cta-container">
+
+       
+        <div class="size-cta-decoration size-cta-decoration--left"
+             aria-hidden="true">
+            <i class="bi bi-stars"></i>
+        </div>
+
+        <div class="size-cta-decoration size-cta-decoration--right"
+             aria-hidden="true">
+            <i class="bi bi-gem"></i>
+        </div>
+
+
+       
+        <div class="size-cta-content">
+
+            <span class="size-cta-eyebrow">
+                YOUR PERFECT FIT AWAITS
+            </span>
+
+            <div class="size-cta-crown" aria-hidden="true">
+                <i class="bi bi-award"></i>
+            </div>
+
+            <h2>
+                Need Help Finding
+                <span>Your Size?</span>
+            </h2>
+
+            <p>
+                Every great costume begins with the right fit.
+                Explore our collection of extraordinary costumes
+                or get in touch with our team for sizing assistance
+                before your next special occasion.
+            </p>
+
+
+         
+            <div class="size-cta-actions">
+
+                <a href="catalog.html"
+                   class="size-cta-btn size-cta-btn--primary">
+
+                    <span>Explore Costumes</span>
+
+                    <i class="bi bi-arrow-right"
+                       aria-hidden="true"></i>
+
+                </a>
+
+
+                <a href="contact.html"
+                   class="size-cta-btn size-cta-btn--secondary">
+
+                    <i class="bi bi-chat-dots"
+                       aria-hidden="true"></i>
+
+                    <span>Contact Us</span>
+
+                </a>
+
+            </div>
+
+
+            <div class="size-cta-trust">
+
+                <span>
+                    <i class="bi bi-rulers" aria-hidden="true"></i>
+                    Sizing Guidance
+                </span>
+
+                <span class="size-cta-trust-divider"
+                      aria-hidden="true"></span>
+
+                <span>
+                    <i class="bi bi-stars" aria-hidden="true"></i>
+                    Costumes for Every Occasion
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="costume-footer" id="footer">
+
+    <div class="footer-container">
+
+        
+        <div class="footer-brand">
+
+            <a href="index.html"
+               class="footer-brand-link"
+               aria-label="Costume Crown home">
+
+                <div class="footer-brand-logo">
+                    <img src="images/logo-1.png"
+                         alt="Costume Crown logo">
+                </div>
+
+                <div class="footer-brand-content">
+                    <div class="footer-brand-name">
+                        Costume <span>Crown</span>
+                    </div>
+
+                    <div class="footer-brand-tagline">
+                        DRESS UP. STAND OUT.
+                    </div>
+                </div>
+
+            </a>
+
+            <p class="footer-description">
+                Make every occasion unforgettable with Costume Crown.
+                Discover fancy dress costumes for kids and adults,
+                character outfits, traditional attire, and themed
+                costumes for school events, festivals, parties,
+                performances, and special celebrations.
+            </p>
+
+            <div class="footer-socials">
+                <a href="#"
+                   aria-label="Facebook">
+                    <i class="bi bi-facebook"></i>
+                </a>
+
+                <a href="#"
+                   aria-label="Instagram">
+                    <i class="bi bi-instagram"></i>
+                </a>
+
+                <a href="#"
+                   aria-label="YouTube">
+                    <i class="bi bi-youtube"></i>
+                </a>
+
+                <a href="#"
+                   aria-label="WhatsApp">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+            </div>
+
+        </div>
+
+
+       
+        <div class="footer-column">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="home-2.html">Home 2</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="catalog.html">Costume Catalog</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+        </div>
+
+
+       
+        <div class="footer-column">
+
+            <h3>Our Costumes</h3>
+
+            <ul>
+                <li><a href="categories.html">Kids' Fancy Dress</a></li>
+                <li><a href="categories.html">Adult Costumes</a></li>
+                <li><a href="categories.html">Mythological Costumes</a></li>
+                <li><a href="categories.html">Freedom Fighters</a></li>
+                <li><a href="categories.html">Traditional Outfits</a></li>
+                <li><a href="categories.html">Party & Theme Costumes</a></li>
+            </ul>
+
+        </div>
+
+
+     
+        <div class="footer-column footer-contact">
+
+            <h3>Get in Touch</h3>
+
+            <p>
+                <i class="bi bi-geo-alt-fill" aria-hidden="true"></i>
+                <span>Your Shop Address, Your City</span>
+            </p>
+
+            <p>
+                <i class="bi bi-telephone-fill" aria-hidden="true"></i>
+                <a href="tel:+910000000000">+91 00000 00000</a>
+            </p>
+
+            <p>
+                <i class="bi bi-envelope-fill" aria-hidden="true"></i>
+                <a href="mailto:hello@costumecrown.com">
+                    hello@costumecrown.com
+                </a>
+            </p>
+
+            <p>
+                <i class="bi bi-clock-fill" aria-hidden="true"></i>
+                <span>Contact us to check costume availability.</span>
+            </p>
+
+            <a href="contact.html" class="footer-cta">
+                <i class="bi bi-calendar2-check" aria-hidden="true"></i>
+                <span>Reserve a Costume</span>
+            </a>
+
+        </div>
+
+    </div>
+
+
+   
+    <div class="footer-bottom">
+
+        <p class="footer-copyright">
+            &copy; <span id="footerYear"></span>
+            Costume Crown. All rights reserved.
+        </p>
+
+        <div class="footer-legal">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms &amp; Conditions</a>
+            <a href="#">Rental Policy</a>
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="size-guide.js"></script>
+</body>
+</html>
