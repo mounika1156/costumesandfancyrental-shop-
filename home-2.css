@@ -4967,7 +4967,7 @@ html[data-theme="dark"] .cosplay-product-label {
     min-height: 50px;
     padding: 0 24px;
     background: var(--primary);
-    border: 1px solid var(--primary);
+    border-radius: 15px;
     color: #FFFFFF;
     text-decoration: none;
     font-size: 12px;
@@ -4981,8 +4981,8 @@ html[data-theme="dark"] .cosplay-product-label {
 }
 
 .cosplay-button:hover {
-    background: transparent;
-    color: var(--primary);
+    background: var(--secondary);
+    color: white;
     transform: translateY(-3px);
 }
 
