@@ -1073,7 +1073,7 @@ html[dir="rtl"] .nav-menu {
 }
 
 html[dir="rtl"] .header-actions {
-    direction: ltr;
+    direction: rtl;
 }
 
 html[dir="rtl"] .dropdown-menu {
@@ -4433,9 +4433,6 @@ body[data-theme="dark"] .contact-info-note > i {
 }
 
 
-/* ==============================================
-   HOW IT WORKS
-   ============================================== */
 
 .cc-rental-process {
     margin-top: 30px;
@@ -4623,9 +4620,6 @@ body[data-theme="dark"] .contact-info-note > i {
 }
 
 
-/* ==============================================
-   FORM SECTIONS
-   ============================================== */
 
 .cc-rental-form-section + .cc-rental-form-section {
     margin-top: 31px;
@@ -4795,9 +4789,6 @@ body[data-theme="dark"] .contact-info-note > i {
 }
 
 
-/* ==============================================
-   RENTAL DATE TIP
-   ============================================== */
 
 .cc-rental-date-note {
     display: flex;
@@ -4824,9 +4815,6 @@ body[data-theme="dark"] .contact-info-note > i {
 }
 
 
-/* ==============================================
-   PRIVACY + SUBMIT
-   ============================================== */
 
 .cc-rental-form-footer {
     margin-top: 28px;
